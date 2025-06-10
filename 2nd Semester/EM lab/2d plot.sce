@@ -1,0 +1,32 @@
+//clf;
+//plot2d([-1 1],[-1 1],[2 -2])
+//xarrows([0 3],[0 4], 3,2)//arrow for vector(3 4)
+//xarrows([0 1],[0 5], 1,3)//arrow for vector (1 5)
+
+//x=linspace(0 1 10)
+//y=linspace(0 1 10)
+//plot2d([-1 1],[-1 1],)
+//xarrows([0 5],[0 8],3,4)//arrow for[1 1]
+//xarrows(x,y,2)//arrow for [x,y]
+//xtitle('Mulyiple 2d arrows','X axis','Y axis');
+clc
+clear
+clf;
+//t=linspace(0,1,1);
+//x=linspace(1,2,11);
+//A=[3 4 2];
+//B=[1 0 0];
+//plot3d([0 1 1],[0 1 1],[0 1 1],[0 1 2])
+//xarrows([0 3],[0 4],[0 2],5,2)
+//xarrows([0 t],[0 t+x],[0,t.*x],1,4)
+//xarrows([0 1],[ 0 0],[0 0],5,3)
+//theta1=acosd((A*B')/(norm(A)*norm(B)));
+//disp(theta1)
+//xtitle('3D arrows','X axis','Y axis','Z axis');
+
+x=linspace(0,2*%pi,10)
+y=linspace(-1,2,10)*%pi
+A=[x,y]
+Theta=atand(y/x)
+r=abs(sqrt(x^2+y^2)
+polarplot(%pi/2,100)

@@ -1,0 +1,1 @@
+alert("Welcone to Jitendra Sharma's website")

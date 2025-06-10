@@ -1,0 +1,39 @@
+
+h1{
+    background-color: aqua;
+    font-size: 35px;
+    text-align:center;
+}
+li{
+    font-weight: bold;
+    
+}
+
+a{
+    background-color: rgb(223, 245, 220);
+}
+nav a{
+    text-align:center;
+    padding: 20px;
+    
+}
+nav a:hover{
+    color:red;
+
+}
+table,tr,th,td{
+    border: 2px solid red;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 20px;
+
+}
+th{
+    background-color: aqua;
+}
+td{
+    background-color: blueviolet;
+}
+body{
+    background-color: blue;
+}

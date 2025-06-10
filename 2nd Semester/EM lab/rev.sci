@@ -1,0 +1,75 @@
+//clc
+//clear 
+//P=[1:12:10];
+//disp(P)
+
+clc
+clear
+//a=[8 7 10]
+//b=[3 7 8]
+//d=2*a'-3*b'
+//disp(d)
+//clc
+//clear
+//a=[0 0];
+//b=[1 1];
+//theta=acosd[a*b/(norm(a)*norm(b))]
+//disp(theta);
+clf
+A=[-1,0,1];
+y=linspace(0,1,10);
+x=linspace(0,3,10);
+plot2d([0 3],[0 2],[0 1])
+xarrows([0 -1],[0,0 ],[0,1],3,4);
+xarrows(x,y,2)
+xtitle('Multiple 2D arrows','X axis','Y axis')
+//clf;
+//plot2d([-1,1],[-1,1],[-1,1])
+//xarrows([0,3],[0,4], 5,2)//arrow for vector
+///(3,4)
+//xarrows([0,1],[0,5],5,4) // arrow for vector
+//(1,5)
+//clc
+//clear 
+//clf
+//x=linspace(0,2*%pi,10)
+//y=linspace(-1,2,10)*%pi
+//A=[x,y]
+//Theta=atand(y/x)
+//r=abs(sqrt(x.^2+y.^2))
+//polarplot(%pi/2,10)
+//xarrows(x,y)
+//x=linspace(a,b,n); y=linspace(c,d,n)
+//A=[x,y] ;
+//Theta=atand(y/x);
+//r=abs(sqrt(x.^2+y.^2));
+//polarplot(%pi/2,10);
+//xarrows(x,y)
+// Define the vector
+//vector = [1, 2];
+
+// Calculate polar coordinates
+//r = norm(vector);
+//theta = atan(vector(2) / vector(1));
+
+//disp([r, theta]);
+
+// Plot the vector
+//plot2d([0, vector(1)], [0, vector(2)], style = 3);
+//xtitle('Vector (1, 2)', 'x', 'y');
+//xgrid();
+// Define the vector
+//vector = [-1, 0, 1];
+
+// Calculate spherical coordinates
+//r = norm(vector);
+//theta = atan(vector(2) / vector(1));
+//phi = acos(vector(3) / r);
+
+//disp([r, theta, phi]);
+
+// Plot the vector
+//plot3d([0, vector(1)], [0, vector(2)], [0, vector(3)], style = 3);
+//xtitle('Vector (-1, 0, 1)', 'x', 'y', 'z');
+//xgrid();
+
